@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Slappey II Travel Map</title>
+    <link rel="shortcut icon" href="boatIcon.png" type="image/png">   
+    <style>
+      #map {
+        height: 600px;
+        width: 100%;
+       }
+    </style>
+  </head>
+  <body>
+    <h3>Slappey II's Travels</h3>
+    <div id="map"></div>
+    <script type="text/javascript" src="utilities.js"></script>        
+    <script type="text/javascript" src="coords.js"></script>    
+    <script type="text/javascript" src="showmap.js"></script>    
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN26imfeUmq-ybMQMmxyFjASIjM-cL7hA&callback=showMap">
+    </script>
+  </body>
+</html>
